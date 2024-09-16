@@ -46,7 +46,7 @@ Write down the selector and repeat the same to find the selector for the price e
 
 ## 3. Prepare the ChatGPT prompt
 
-The prompt should be well-explained, specifying the code’s programming language, tools and libraries to be used, element selectors, output, and any special instructions the code must comply with. Here is a sample prompt that you can use to create a web scraper using Python and & BeautifulSoup:
+The prompt should be well-explained, specifying the code’s programming language, tools and libraries to be used, element selectors, output, and any special instructions the code must comply with. Here's a sample prompt that you can use to create a web scraper using Python and & BeautifulSoup:
 
 ```markdown
 Write a web scraper using Python and BeautifulSoup.
@@ -82,7 +82,7 @@ Once ChatGPT replies with a code, it’s always a good idea to review it first. 
 
 ## 5. Execute and test
 
-Copy the ChatGPT-generated code and check if it's executing fine. Here is the code that ChatGPT generated for us:
+Copy the ChatGPT-generated code and check if it's executing fine. Here's the code that ChatGPT generated for us:
 
 ```python
 import requests
@@ -137,7 +137,7 @@ pip install requests beautifulsoup4
 ```
 
 
-Here is the snippet of the output CSV file generated after executing the code:
+Here's the snippet of the output CSV file generated after executing the code:
 
 ![](/images/scraped_csv.png)
 
