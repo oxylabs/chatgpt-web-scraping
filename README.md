@@ -1,9 +1,12 @@
 # How to Use ChatGPT for Web Scraping in 2024
 
-Follow this article to learn how to use ChatGPT for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
+[![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
-Before moving to the actual topic, let’s briefly introduce our demo target for this tutorial. We will extract data from the Oxylabs Sandbox, a dummy e-commerce store that maintains video game listings in several categories. Here is what the landing page of the store looks like:
+Follow this article to learn how to use [ChatGPT](https://chat.openai.com/) for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
+
+Before moving to the actual topic, let’s briefly introduce our demo target for this tutorial. We will extract data from the [Oxylabs Scraping Sandbox](https://sandbox.oxylabs.io/products), a dummy e-commerce store that maintains video game listings in several categories. Here's what the landing page of the store looks like:
 
 
 
@@ -112,6 +115,7 @@ with open(filename, "w", newline="", encoding="utf-8") as file:
 print(f"Data scraped successfully and saved to '{filename}'.")
 ```
 
+
 > [!NOTE]
 > Remember to install the `BeautifulSoup` library and  `requests` library before running the code. This can be done by opening the terminal and running:
 
@@ -119,7 +123,35 @@ print(f"Data scraped successfully and saved to '{filename}'.")
 pip install requests beautifulsoup4
 ```
 
+
 Here is the snippet of the output CSV file generated after executing the code:
 
 
 
+## Tips and tricks for using ChatGPT
+
+### 1. Get code editing assistance
+
+Specify the changes you want to make, such as modifying the scraped elements, boosting the effectiveness of the code, or modifying the data extraction procedure. ChatGPT can offer you additional code options or modify suggestions to improve the web scraping process.
+
+### 2. Check for errors
+
+To adhere to coding standards and practices, you can ask ChatGPT to review the code and provide recommendations. You can even paste your code and ask ChatGPT to lint it. You can do so by adding the “lint the code” phrase in the additional instructions of the prompt. 
+
+### 3. Code Optimization Assistance
+
+When it comes to web scraping, efficiency is critical, especially when working with large datasets or challenging web scraping tasks. ChatGPT can provide tips on how to increase the performance of your code. 
+
+You can ask for advice on how to use frameworks and packages that speed up web scraping, use caching techniques, exploit concurrency or parallel processing, and minimize pointless network calls.
+
+### 4. Handle dynamic content
+
+Certain websites produce dynamic content using Javascript libraries or use AJAX requests to produce the content. ChatGPT can help you navigate such complex web content. You can inquire ChatGPT for the techniques to get the dynamic content from such Javascript-rendered pages.
+
+ChatGPT can offer suggestions on using headless browsers, parsing dynamic HTML, or even automating interactions using simulated user actions.
+
+## Overcome web scraping blocks with a dedicated API
+
+Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker) by Oxylabs can help in these scenarios.
+
+Web Unblocker provides features such as rotating proxies, bypassing CAPTCHAs, managing requests, etc. Such measures can help minimize the chances of triggering automated bot detection.
