@@ -4,18 +4,17 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
-- [How to Use ChatGPT for Web Scraping in 2024](#how-to-use-chatgpt-for-web-scraping-in-2024)
-  * [1. Create a ChatGPT Account](#1-create-a-chatgpt-account)
-  * [2. Locate the elements to scrape](#2-locate-the-elements-to-scrape)
-  * [3. Prepare the ChatGPT prompt](#3-prepare-the-chatgpt-prompt)
-  * [4. Review the code](#4-review-the-code)
-  * [5. Execute and test](#5-execute-and-test)
-  * [Tips and tricks for using ChatGPT](#tips-and-tricks-for-using-chatgpt)
-    + [1. Get code editing assistance](#1-get-code-editing-assistance)
-    + [2. Check for errors](#2-check-for-errors)
-    + [3. Code Optimization Assistance](#3-code-optimization-assistance)
-    + [4. Handle dynamic content](#4-handle-dynamic-content)
-  * [Overcome web scraping blocks with a dedicated API](#overcome-web-scraping-blocks-with-a-dedicated-api)
+- [1. Create a ChatGPT Account](#1-create-a-chatgpt-account)
+- [2. Locate the elements to scrape](#2-locate-the-elements-to-scrape)
+- [3. Prepare the ChatGPT prompt](#3-prepare-the-chatgpt-prompt)
+- [4. Review the code](#4-review-the-code)
+- [5. Execute and test](#5-execute-and-test)
+- [Tips and tricks for using ChatGPT](#tips-and-tricks-for-using-chatgpt)
+  * [1. Get code editing assistance](#1-get-code-editing-assistance)
+  * [2. Check for errors](#2-check-for-errors)
+  * [3. Code Optimization Assistance](#3-code-optimization-assistance)
+  * [4. Handle dynamic content](#4-handle-dynamic-content)
+- [Overcome web scraping blocks with a dedicated API](#overcome-web-scraping-blocks-with-a-dedicated-api)
 
 
 Follow this article to learn how to use [ChatGPT](https://chat.openai.com/) for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
