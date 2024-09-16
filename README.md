@@ -4,11 +4,25 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+- [How to Use ChatGPT for Web Scraping in 2024](#how-to-use-chatgpt-for-web-scraping-in-2024)
+  * [1. Create a ChatGPT Account](#1-create-a-chatgpt-account)
+  * [2. Locate the elements to scrape](#2-locate-the-elements-to-scrape)
+  * [3. Prepare the ChatGPT prompt](#3-prepare-the-chatgpt-prompt)
+  * [4. Review the code](#4-review-the-code)
+  * [5. Execute and test](#5-execute-and-test)
+  * [Tips and tricks for using ChatGPT](#tips-and-tricks-for-using-chatgpt)
+    + [1. Get code editing assistance](#1-get-code-editing-assistance)
+    + [2. Check for errors](#2-check-for-errors)
+    + [3. Code Optimization Assistance](#3-code-optimization-assistance)
+    + [4. Handle dynamic content](#4-handle-dynamic-content)
+  * [Overcome web scraping blocks with a dedicated API](#overcome-web-scraping-blocks-with-a-dedicated-api)
+
+
 Follow this article to learn how to use [ChatGPT](https://chat.openai.com/) for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
 
-Before moving to the actual topic, let’s briefly introduce our demo target for this tutorial. We will extract data from the [Oxylabs Scraping Sandbox](https://sandbox.oxylabs.io/products), a dummy e-commerce store that maintains video game listings in several categories. Here's what the landing page of the store looks like:
+Before moving to the actual topic, let’s briefly introduce our demo target for this tutorial. We'll extract data from the [Oxylabs Scraping Sandbox](https://sandbox.oxylabs.io/products), a dummy e-commerce store that maintains video game listings in several categories. Here's what the landing page of the store looks like:
 
-
+![](/images/sandbox.png)
 
 Now, let’s delve into the steps required to scrape data from this webpage using ChatGPT.
 
@@ -25,7 +39,7 @@ Before prompting ChatGPT, let’s first locate the elements we need to extract f
 
 - Right-click the element and select `Copy selector` with the game title in it. The following figure explains it all:
 
-
+![](/images/sandbox_dev_tools.png)
 
 
 Write down the selector and repeat the same to find the selector for the price element.
@@ -67,9 +81,9 @@ Notice we have provided CSS selectors for prices and titles that we copied in th
 Once ChatGPT replies with a code, it’s always a good idea to review it first. Just overview the code if it seems to do what you want it to do. Double-check if it uses some libraries or packages you may wish to exclude. If you find any inherent glitches, write back to ChatGPT and ask to generate the code again.
 
 
-## 5. Execute and Test
+## 5. Execute and test
 
-Copy the ChatGPT-generated code and check if it is executing fine. Here is the code that ChatGPT generated for us:
+Copy the ChatGPT-generated code and check if it's executing fine. Here is the code that ChatGPT generated for us:
 
 ```python
 import requests
@@ -126,6 +140,9 @@ pip install requests beautifulsoup4
 
 Here is the snippet of the output CSV file generated after executing the code:
 
+![](/images/scraped_csv.png)
+
+Congratulations! You've just effortlessly scraped the target website. For your convenience, we also prepared this tutorial in a [video format](https://www.youtube.com/watch?v=AUEjBzLJlE4).
 
 
 ## Tips and tricks for using ChatGPT
@@ -152,6 +169,6 @@ ChatGPT can offer suggestions on using headless browsers, parsing dynamic HTML, 
 
 ## Overcome web scraping blocks with a dedicated API
 
-Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker) by Oxylabs can help in these scenarios.
+Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker) by Oxylabs can help in these scenarios. It's a **paid proxy solution** which you can test using a **1-week free trial** by regsitering a free account on the [dashboard](https://dashboard.oxylabs.io/).
 
-Web Unblocker provides features such as rotating proxies, bypassing CAPTCHAs, managing requests, etc. Such measures can help minimize the chances of triggering automated bot detection.
+Web Unblocker provides features such as rotating proxies, bypassing CAPTCHAs, managing requests, utilizing a built-in headless browser, etc. Such measures can help minimize the chances of triggering automated bot detection.
