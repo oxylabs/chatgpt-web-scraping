@@ -170,4 +170,4 @@ ChatGPT can offer suggestions on using headless browsers, parsing dynamic HTML, 
 
 Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker) by Oxylabs can help in these scenarios. It's a **paid proxy solution** which you can test using a **1-week free trial** by regsitering a free account on the [dashboard](https://dashboard.oxylabs.io/).
 
-Web Unblocker provides features such as rotating proxies, bypassing CAPTCHAs, managing requests, utilizing a built-in Custom Browser Instructions, etc. Such measures can help minimize the chances of triggering automated bot detection.
+Web Unblocker provides features such as rotating proxies, handling CAPTCHAs, managing requests, utilizing a built-in Custom Browser Instructions, etc. Such measures can help minimize the chances of triggering automated bot detection.
