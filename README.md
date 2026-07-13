@@ -17,7 +17,7 @@
 - [Overcome web scraping blocks with a dedicated API](#overcome-web-scraping-blocks-with-a-dedicated-api)
 
 
-Follow this article to learn how to use [ChatGPT](https://chat.openai.com/) for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
+Follow this article to learn how to use [ChatGPT](https://chatgpt.com/) for developing fully-functional Python web scrapers. You'll also find out some important tips and tricks to improve the quality of a scraper’s code.
 
 Before moving to the actual topic, let’s briefly introduce our demo target for this tutorial. We'll extract data from the [Oxylabs Scraping Sandbox](https://sandbox.oxylabs.io/products), a dummy e-commerce store that maintains video game listings in several categories. Here's what the landing page of the store looks like:
 
@@ -28,7 +28,7 @@ Now, let’s delve into the steps required to scrape data from this webpage usin
 
 ## 1. Create a ChatGPT Account
 
-Visit ChatGPT’s [login page](https://chat.openai.com/auth/login) and hit Sign-up. You also have the option to sign up using your Google account. On successful sign-up, you will be redirected to the chat window. You can initiate a chat by entering your query in the text field.
+Visit ChatGPT’s [login page](https://chatgpt.com/auth/login) and hit Sign-up. You also have the option to sign up using your Google account. On successful sign-up, you will be redirected to the chat window. You can initiate a chat by entering your query in the text field.
 
 ## 2. Locate the elements to scrape
 
