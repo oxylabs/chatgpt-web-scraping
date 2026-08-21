@@ -143,6 +143,7 @@ Here's the snippet of the output CSV file generated after executing the code:
 
 Congratulations! You've just effortlessly scraped the target website. For your convenience, we also prepared this tutorial in a [video format](https://www.youtube.com/watch?v=AUEjBzLJlE4).
 
+[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-web-scraping/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?&utm_content=web_api_waitinglist&groupid=877)
 
 ## Tips and tricks for using ChatGPT
 
