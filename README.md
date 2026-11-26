@@ -1,6 +1,6 @@
 # How to Use ChatGPT for Web Scraping in 2025
 
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=chatgpt-web-scraping-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=chatgpt-web-scraping&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -149,7 +149,7 @@ Here's the snippet of the output CSV file generated after executing the code:
 
 Congratulations! You've just effortlessly scraped the target website. For your convenience, we also prepared this tutorial in a [video format](https://www.youtube.com/watch?v=AUEjBzLJlE4).
 
-[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-web-scraping/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877)
+[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-web-scraping/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=chatgpt-web-scraping&utm_campaign=banner&groupid=877)
 
 ## Tips and tricks for using ChatGPT
 
@@ -175,6 +175,6 @@ ChatGPT can offer suggestions on using headless browsers, parsing dynamic HTML, 
 
 ## Manage web scraping at scale with a dedicated API
 
-Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker) by Oxylabs can help in these scenarios. It's a **paid proxy solution** which you can test using a **1-week free trial** by regsitering a free account on the [dashboard](https://dashboard.oxylabs.io/).
+Be aware that there are some limitations of using ChatGPT for web scraping. Many websites have implemented strong security measures to block automated scrapers from accessing the sites. Commonly, sites use CAPTCHAs and request rate-limiting to prevent automated scraping. Thereby, simple **ChatGPT-generated scrapers may fail** at these sites. However, [Web Unblocker](https://oxylabs.io/products/web-unblocker?utm_source=github&utm_medium=referral&utm_content=chatgpt-web-scraping&groupid=877) by Oxylabs can help in these scenarios. It's a **paid proxy solution** which you can test using a **1-week free trial** by regsitering a free account on the [dashboard](https://dashboard.oxylabs.io/).
 
 Web Unblocker provides features such as rotating proxies, handling CAPTCHAs, managing requests, utilizing a built-in Custom Browser Instructions, etc. Such measures can help minimize the chances of triggering automated bot detection.
